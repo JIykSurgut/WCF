@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>Привязки</title>
+</head>
+<body>
+<h4>
+<a href="../Главная.html">Главная</a> | 
+<a href="Содержимое/Хронология.html">Хронология</a> |
+Структура
+</h4>
+<p><strong>Привязкой</strong> называют заранее сконфигурированный стек каналов.</p>
+<ul>
+	<li><strong>BasicHttpBinding</strong></li>
+	<ul>
+		<li>TextMessageEncodingBindingElement</li>
+		<li>HttpTransportBindingElement</li>
+	</ul>
+	<li><strong>BasicHttpContextBinding</strong></li>
+	<ul>
+		<li>ContextBindingElement</li>
+		<li>TextMessageEncodingBindingElement</li>
+		<li>HttpTransportBindingElement</li>
+	</ul>
+</ul>
+<p>Элементы привязок</p>
+<p>Object - BindingElement</p>
+<ul>
+	<li>CompositeDuplexBindingElement</li>
+	<li>ContextBindingElement</li>
+	<li>HttpCookieContainerBindingElement</li>
+	<li>MessageEncodingBindingElement</li>
+	<ul>
+		<li>BinaryMessageEncodingBindingElement</li>
+		<li>ByteStreamMessageEncodingBindingElement</li>
+		<li>MtomMessageEncodingBindingElement</li>
+		<li>TextMessageEncodingBindingElement</li>
+		<li>WebMessageEncodingBindingElement</li>
+	</ul>
+	<li>OneWayBindingElement</li>
+	<li>PeerResolverBindingElement</li>
+	<ul>
+		<li>PeerCustomResolverBindingElement</li>
+		<li>PnrpPeerResolverBindingElement</li>
+	</ul>
+	<li>PrivacyNoticeBindingElement</li>
+	<li>ReliableSessionBindingElement</li>
+	<li>SecurityBindingElement</li>
+	<ul>
+		<li>AsymmetricSecurityBindingElement</li>
+		<li>SymmetricSecurityBindingElement</li>
+		<li>TransportSecurityBindingElement</li>
+	</ul>
+	<li>SslStreamSecurityBindingElement</li>
+	<li>StreamUpgradeBindingElement</li>
+	<li>TransactionFlowBindingElement</li>
+	<li>TransportBindingElement</li>
+	<ul>
+		<li>ConnectionOrientedTransportBindingElement</li>
+		<ul>
+			<li>NamedPipeTransportBindingElement</li>
+			<li>TcpTransportBindingElement</li>
+		</ul>
+		<li>HttpTransportBindingElement</li>
+		<ul>
+			<li>HttpsTransportBindingElement</li>
+		</ul>
+		<li>MsmqBindingElementBase</li>
+		<ul>
+			<li>MsmqTransportBindingElement</li>
+			<li>MsmqIntegrationBindingElement</li>
+		</ul>
+		<li>PeerTransportBindingElement</li>
+		<li>UdpTransportBindingElement</li>
+	</ul>
+	<li>UseManagedPresentationBindingElement</li>
+	<li>WindowsStreamSecurityBindingElement</li>
+	<li>DiscoveryClientBindingElement</li>
+</ul>
+</body>
+</html>
